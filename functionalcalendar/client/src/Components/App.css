@@ -1,0 +1,247 @@
+.demo{
+height: 40%;
+ width: 50%;
+  margin: 0;
+  
+}
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header-event {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.tr{
+
+
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-select-selection-item{
+  /* background:rgb(34, 154, 201);
+  text-color: rgb(255, 255, 255) */
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 10px;
+  box-sizing: border-box;
+ 
+}
+
+/* .ant-picker-content{
+
+ 
+  
+
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #742e2e;
+  
+  
+  
+ 
+} */
+.ant-select ant-select-sm m-1 ant-select-single ant-select-show-arrow{
+  background: rgb(165, 60, 60);
+  font-size: 40px;
+
+}
+.ant-picker-calendar-date:hover{
+  background:bisque !important;
+  color:crimson !important;
+  font-weight: 900;
+  cursor: pointer;
+
+}
+.ant-picker-cell ant-picker-cell-in-view{
+  border-radius: 30px;
+}
+
+
+th{
+  background:darksalmon;
+  color: #262626;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: oblique;
+
+}
+
+.body{
+  
+   background: url("https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=183f2924ba5a8429441804609b2d4f61") no-repeat center / cover; 
+}
+.container-form{
+  background: url("https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=183f2924ba5a8429441804609b2d4f61") no-repeat center / cover;
+
+}
+/* .container {
+  max-width: 1200px;
+} */
+/* .container-form {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  background: #a64bf4;
+  background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: -moz-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: linear-gradient(45deg, #00dbde, #fc00ff);
+} */
+.fields {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: Poppins-Medium;
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.2;
+  padding: 0 5px;
+}
+
+.ant-form-item-control{
+  width: 50%;
+}
+.ant-picker{
+  width: max-content;
+}
+.label{
+font-family: Poppins-Regular;
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.5;
+  padding-left: 5px;
+}
+
+/* .slot:hover{
+  background: rgb(209, 214, 209);
+} */
+
+.inner-slot{
+  background: rgb(234,76,78);
+  color: yellow;
+  margin-right: 100px;
+}
+
+.inner-slot:hover{
+  background: rgb(101, 194, 48);
+  color: rgb(255, 0, 34);
+}
+
+.ant-form-item-control-input-content{
+  margin-right:40px;
+}
+
+.login{
+  
+}
+.card{
+ background-image: linear-gradient(45deg, #00dbde,#6a376b);
+}
+
+.inner-login{
+  background-image: linear-gradient(45deg, #00dbde,#6a376b);
+  margin-bottom:60px;
+}
+/* body{
+  background-image: linear-gradient(45deg, #bea61a, #6a376b)
+} */
+body {
+  /* width: 100px;
+  height: 100px; */
+  /* background-color: rgb(236, 150, 150); */
+  animation-name: example;
+  animation-duration: 15s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes example {
+  0%   {background-image:linear-gradient(-45deg, #de8500, #6a376b)}
+  25%  {background-image:linear-gradient(-45deg, #be2e9a, #4b391f, #189fa3)}
+  50%  {background-image:linear-gradient(-45deg, #323994 #e6762c, #4bb459)}
+  100% {background-image:linear-gradient(-45deg, #c24717c5, #ce6069)}
+}
+
+.signup{
+  background-image: linear-gradient(45deg, #927954, #1f66c4);
+  padding:20px;
+}
+.signup1{
+  background-image: linear-gradient(45deg, #927954, #1f66c4);
+}
+
+.ant-picker-calendar-date-content{
+  background-color: aliceblue;
+}
+
+
+.ant-picker-calendar-date-value{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  font-style: bold;
+
+}
+
+/* .col-12{
+  background-color: cadetblue;
+} */
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content {
+  border-radius: 30px;
+  
+}
+
+.ant-col{
+  font-size: large;
+}
+
+.ant-row-space-between {
+  background-image: linear-gradient(pink,red,white);
+}
+
+
+.ant-picker-calendar-date-content{
+  background-color:rgb(179, 218, 251);
+  height:10px;
+}
